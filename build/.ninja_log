@@ -1,0 +1,26 @@
+# ninja log v5
+1	22	1700886564704222234	CMakeFiles/cts.dir/src/heap.c.o	a6f7babb95e69ed3
+2	23	1700886564712222381	CMakeFiles/cts.dir/src/preprocess.c.o	e7295de5a84ecf27
+1	25	1700886564712222381	CMakeFiles/cts.dir/src/crt_path.c.o	b4988e13f4c8dc19
+2	22	1700886564708222308	CMakeFiles/cts.dir/src/util.c.o	3d54fcc476c2f475
+1	33	1700886564720222528	CMakeFiles/cts.dir/src/io.c.o	b03a7b6185ad5611
+2	35	1700886564724222602	CMakeFiles/cts.dir/src/segment.c.o	15da7e29149e5dc7
+0	23	1700886716655009929	CMakeFiles/cts.dir/src/main.c.o	e36ad7b18938dde4
+1	30	1700886564716222455	CMakeFiles/cts.dir/src/fast_path.c.o	6dc6bf69979aa0b9
+1	55	1700886564744222969	CMakeFiles/cts.dir/src/connect.c.o	9f532218423a7ec2
+1	69	1700886564756223189	CMakeFiles/cts.dir/src/dme.c.o	1cf3a44f8fa9c1a7
+0	76	1700886564764223336	CMakeFiles/cts.dir/src/bufplace.c.o	6117fc9743b74639
+23	40	1700886716675010295	cts	ab8c65dc2c4d5ab0
+0	34	1700888784094264600	CMakeFiles/cts.dir/src/io.c.o	b03a7b6185ad5611
+34	51	1700888784114264903	cts	ab8c65dc2c4d5ab0
+0	25	1700889121695451706	CMakeFiles/cts.dir/src/preprocess.c.o	e7295de5a84ecf27
+0	66	1700889121743452450	CMakeFiles/cts.dir/src/dme.c.o	1cf3a44f8fa9c1a7
+66	82	1700889121759452698	cts	ab8c65dc2c4d5ab0
+1	26	1700889691248514716	CMakeFiles/cts.dir/src/preprocess.c.o	e7295de5a84ecf27
+26	42	1700889691268515037	cts	ab8c65dc2c4d5ab0
+0	65	1700889892011726463	CMakeFiles/cts.dir/src/dme.c.o	1cf3a44f8fa9c1a7
+65	82	1700889892027726718	cts	ab8c65dc2c4d5ab0
+0	66	1700890089230876338	CMakeFiles/cts.dir/src/dme.c.o	1cf3a44f8fa9c1a7
+66	82	1700890089246876593	cts	ab8c65dc2c4d5ab0
+0	66	1700891414128184583	CMakeFiles/cts.dir/src/dme.c.o	1cf3a44f8fa9c1a7
+66	82	1700891414144184882	cts	ab8c65dc2c4d5ab0

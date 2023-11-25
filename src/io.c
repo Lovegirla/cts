@@ -443,9 +443,9 @@ int x1,y1,x2,y2;
         for(i = 0 ; i < wirelib.num; i++)
                 fprintf(ifp,"%d %f %f\n",wirelib.lib[i].wiretype,wirelib.lib[i].r,wirelib.lib[i].c);
         fprintf(ifp,"num buflib %d\n",buflib.num);
- //       for(i=0; i< buflib.num; i++)
-                 fprintf(ifp,"%d %s %d %f %f %f\n",buflib.lib[0].buf_id,buflib.lib[0].spice_subckt,buflib.lib[0].inverted,35.0,buflib.lib[0].ocap,buflib.lib[0].ores);
-                fprintf(ifp,"%d %s %d %f %f %f\n",buflib.lib[1].buf_id,buflib.lib[1].spice_subckt,buflib.lib[1].inverted,4.2,buflib.lib[1].ocap,buflib.lib[1].ores);
+       for(i=0; i< buflib.num; i++)
+                 fprintf(ifp,"%d %s %d %f %f %f\n",buflib.lib[i].buf_id,buflib.lib[i].spice_subckt,buflib.lib[i].inverted,35.0,buflib.lib[i].ocap,buflib.lib[i].ores);
+                // fprintf(ifp,"%d %s %d %f %f %f\n",buflib.lib[1].buf_id,buflib.lib[1].spice_subckt,buflib.lib[1].inverted,4.2,buflib.lib[1].ocap,buflib.lib[1].ores);
 
         fprintf(ifp,"simulation vdd %.1f %.1f\n",vddlib.lib[0],vddlib.lib[1]);
         fprintf(ifp,"limit slew %d\n",SlewLimit);

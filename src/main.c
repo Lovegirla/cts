@@ -20,6 +20,10 @@ int main(int argc, char **argv){
 	int remain_num_total_nodes;
 	int remain_num_sinknode;
 	ZERO = (DME_TREE_NODE *) malloc(sizeof(DME_TREE_NODE));
+	if(argc < 3){
+		printf("usage:./cts inputfile outputfile\n");
+		exit(1);
+	}
 	if(argc > 4){
 		printf("error: command inputfile\n");
 		exit(1);

@@ -362,9 +362,9 @@ FILE * ifp ;
 double sink_delay ;
 //     printf(" buf lib num is %d\n",buflib.num);
 		if ( flag == 1)
-			system("./cu1.pl -s -v1 infile outfile tuned_45nm_HP.pm > cutest");
+			system("../utils/cu1.pl -s -v1 infile outfile tuned_45nm_HP.pm > cutest");
 		else if(flag == 0)
-			system("./cu0.pl -s -v1 infile outfile  tuned_45nm_HP.pm > cutest");
+			system("../utils/cu0.pl -s -v1 infile outfile  tuned_45nm_HP.pm > cutest");
 		else{
 			printf(" error flag for inverter ? \n");
 			return 0;
@@ -391,13 +391,13 @@ FILE * ifp;
 int er;
 double crt= 0.0;
 		if ( flag == 1){
-			system("./cularge_1.pl -s -v1 crtinfile crtoutfile tuned_45nm_HP.pm ");
-			system("./cularge_1.pl -s -v1 crtinfile crtoutfile tuned_45nm_HP.pm > crtest");
+			system("../utils/cularge_1.pl -s -v1 crtinfile crtoutfile tuned_45nm_HP.pm ");
+			system("../utils/cularge_1.pl -s -v1 crtinfile crtoutfile tuned_45nm_HP.pm > crtest");
 		}
 		else if(flag == 4){
 		
-			system("./cularge_4.pl -s -v1 crtinfile crtoutfile tuned_45nm_HP.pm ");
-			system("./cularge_4.pl -s -v1 crtinfile crtoutfile tuned_45nm_HP.pm > crtest");
+			system("../utils/cularge_4.pl -s -v1 crtinfile crtoutfile tuned_45nm_HP.pm ");
+			system("../utils/cularge_4.pl -s -v1 crtinfile crtoutfile tuned_45nm_HP.pm > crtest");
 		
 		
 		}
