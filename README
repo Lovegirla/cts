@@ -1,1 +1,6 @@
-README
+#fix project from author
+git clone 
+mkdir build
+cd build
+cmake ../
+make

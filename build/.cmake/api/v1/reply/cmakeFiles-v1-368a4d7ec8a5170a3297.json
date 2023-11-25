@@ -21,7 +21,7 @@
 		{
 			"isCMake" : true,
 			"isExternal" : true,
-			"path" : "/usr/local/share/cmake-3.24/Modules/CMakeUnixFindMake.cmake"
+			"path" : "/usr/local/share/cmake-3.24/Modules/CMakeNinjaFindMake.cmake"
 		},
 		{
 			"isCMake" : true,

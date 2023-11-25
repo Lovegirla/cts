@@ -1,0 +1,57 @@
+[
+{
+  "directory": "/home/wjz/cts/build",
+  "command": "/usr/bin/gcc -I/home/wjz/cts/include -g -o CMakeFiles/cts.dir/src/bufplace.c.o -c /home/wjz/cts/src/bufplace.c",
+  "file": "/home/wjz/cts/src/bufplace.c"
+},
+{
+  "directory": "/home/wjz/cts/build",
+  "command": "/usr/bin/gcc -I/home/wjz/cts/include -g -o CMakeFiles/cts.dir/src/connect.c.o -c /home/wjz/cts/src/connect.c",
+  "file": "/home/wjz/cts/src/connect.c"
+},
+{
+  "directory": "/home/wjz/cts/build",
+  "command": "/usr/bin/gcc -I/home/wjz/cts/include -g -o CMakeFiles/cts.dir/src/crt_path.c.o -c /home/wjz/cts/src/crt_path.c",
+  "file": "/home/wjz/cts/src/crt_path.c"
+},
+{
+  "directory": "/home/wjz/cts/build",
+  "command": "/usr/bin/gcc -I/home/wjz/cts/include -g -o CMakeFiles/cts.dir/src/dme.c.o -c /home/wjz/cts/src/dme.c",
+  "file": "/home/wjz/cts/src/dme.c"
+},
+{
+  "directory": "/home/wjz/cts/build",
+  "command": "/usr/bin/gcc -I/home/wjz/cts/include -g -o CMakeFiles/cts.dir/src/fast_path.c.o -c /home/wjz/cts/src/fast_path.c",
+  "file": "/home/wjz/cts/src/fast_path.c"
+},
+{
+  "directory": "/home/wjz/cts/build",
+  "command": "/usr/bin/gcc -I/home/wjz/cts/include -g -o CMakeFiles/cts.dir/src/heap.c.o -c /home/wjz/cts/src/heap.c",
+  "file": "/home/wjz/cts/src/heap.c"
+},
+{
+  "directory": "/home/wjz/cts/build",
+  "command": "/usr/bin/gcc -I/home/wjz/cts/include -g -o CMakeFiles/cts.dir/src/io.c.o -c /home/wjz/cts/src/io.c",
+  "file": "/home/wjz/cts/src/io.c"
+},
+{
+  "directory": "/home/wjz/cts/build",
+  "command": "/usr/bin/gcc -I/home/wjz/cts/include -g -o CMakeFiles/cts.dir/src/main.c.o -c /home/wjz/cts/src/main.c",
+  "file": "/home/wjz/cts/src/main.c"
+},
+{
+  "directory": "/home/wjz/cts/build",
+  "command": "/usr/bin/gcc -I/home/wjz/cts/include -g -o CMakeFiles/cts.dir/src/preprocess.c.o -c /home/wjz/cts/src/preprocess.c",
+  "file": "/home/wjz/cts/src/preprocess.c"
+},
+{
+  "directory": "/home/wjz/cts/build",
+  "command": "/usr/bin/gcc -I/home/wjz/cts/include -g -o CMakeFiles/cts.dir/src/segment.c.o -c /home/wjz/cts/src/segment.c",
+  "file": "/home/wjz/cts/src/segment.c"
+},
+{
+  "directory": "/home/wjz/cts/build",
+  "command": "/usr/bin/gcc -I/home/wjz/cts/include -g -o CMakeFiles/cts.dir/src/util.c.o -c /home/wjz/cts/src/util.c",
+  "file": "/home/wjz/cts/src/util.c"
+}
+]

@@ -1,0 +1,17 @@
+0 0 100 100
+source 0 0 0 0 
+num sink 3
+0 10 45
+1 27 30
+2 55 10
+num wirelib 2
+0 0.0001 0.0002
+1 0.0003 0.00016
+num buflib 1
+0 clkinv0.subckt 1 35 80 61.2
+simulation vdd 1 1.2
+limit slew 100
+limit cap 5000
+num blockage 2
+10 40 25 70
+30 20 50 50
